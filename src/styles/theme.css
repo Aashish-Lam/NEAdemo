@@ -1,0 +1,33 @@
+/* ThemeToggle.css */
+
+html {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  html.dark {
+    background-color: #1a202c; /* Example dark background color */
+    color: #cbd5e0; /* Example dark text color */
+  }
+  
+  .theme-toggle {
+    background-color: #38b2ac; /* Light mode background color */
+    transition: background-color 0.3s;
+  }
+  
+  html.dark .theme-toggle {
+    background-color: #2d3748; /* Dark mode background color */
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-left {
+    left: 2px;
+    transition: left 0.3s;
+  }
+  
+  .toggle-right {
+    right: 2px;
+    transition: right 0.3s;
+  }
+  
+
+  

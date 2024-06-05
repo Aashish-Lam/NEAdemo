@@ -1,0 +1,71 @@
+{
+  "LATEST_NEWS": "Latest News",
+  "PUBLICATIONS_REPORTS": "Publications/Reports",
+  "PRESS_RELEASES": "Press Releases",
+  "news_items": [
+    {
+      "title": "Examination building established notification (Bagmati) partial",
+      "date": "30 May"
+    },
+    {
+      "title": "Examination building established notification (Madhesh) partial",
+      "date": "30 May"
+    },
+    {
+      "title": "Examination building established notification (Karnali)",
+      "date": "26 May"
+    },
+    {
+      "title": "Examination building established notification (Gandaki)",
+      "date": "25 May"
+    },
+    {
+      "title": "Examination building established notification (Sudurpaschim)",
+      "date": "25 May"
+    }
+  ],
+  "publications_reports": [
+    {
+      "title": "New Butwal-Lamahi 400kV TL Project EIA Draft Report Volume 1",
+      "date": "31 May"
+    },
+    {
+      "title": "New Butwal-Lamahi 400kV TL Project EIA Draft Report Volume 2",
+      "date": "31 May"
+    },
+    {
+      "title": "Regarding the correction",
+      "date": "08 May"
+    },
+    {
+      "title": "Amarjyoti-61st Issue, Falgun-2080",
+      "date": "05 May"
+    },
+    {
+      "title": "Task related conditions (TOR) - Computerized Billing and Network Division",
+      "date": "25 Feb"
+    }
+  ],
+  "press_releases": [
+    {
+      "title": "Press Release",
+      "date": "08 May"
+    },
+    {
+      "title": "Press Release",
+      "date": "11 May"
+    },
+    {
+      "title": "Regarding temporary project position",
+      "date": "23 Jun"
+    },
+    {
+      "title": "Press Release",
+      "date": "21 Dec"
+    },
+    {
+      "title": "Press Release",
+      "date": "26 Jan"
+    }
+  ]
+}

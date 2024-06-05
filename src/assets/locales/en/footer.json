@@ -1,0 +1,37 @@
+{
+  "usefulLinks": {
+    "title": "Useful Links",
+    "moewri": "Ministry of Energy, Water Resources and irrigation",
+    "primeMinisterCabinet": "Office of the prime minister and Cabinet",
+    "ministryOfFinance": "Ministry of Finance",
+    "lokSewa": "Public Service Commission"
+  },
+  "quickLinks": {
+    "title": "Quick Links",
+    "home": {
+      "text": "Home",
+      "url": "http://intranet.nea.org.np"
+    },
+    "formsInformation": {
+      "text": "Forms/Information",
+      "url": "http://intranet.nea.org.np/forms"
+    },
+    "actsRegulations": {
+      "text": "Acts/Regulations",
+      "url": "http://intranet.nea.org.np/acts"
+    },
+    "newsAndNotices": {
+      "text": "News And Notices",
+      "url": "http://intranet.nea.org.np/news"
+    }
+  },
+  "contactInformation": {
+    "title": "Contact Information",
+    "phone": "01-4153051",
+    "email": "info@nea.org.np",
+    "location": "Head Office, Durbarmarg Kathmandu, Nepal"
+  },
+  "socialMedia": {
+    "title": "Follow us on"
+  }
+}

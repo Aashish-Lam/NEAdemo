@@ -1,0 +1,62 @@
+{
+  "brandTitle": "Nepal Electricity Authority",
+  "home": {
+    "text": "Home",
+    "url": "http://intranet.nea.org.np"
+  },
+  "mediaCenter": {
+    "text": "Media Center",
+    "dropdown": {
+      "formsInformation": {
+        "text": "Forms/Information",
+        "url": "http://localhost:5173/forms"
+      },
+      "publicationsReports": {
+        "text": "Publications/Reports",
+        "url": "http://intranet.nea.org.np/publications"
+      },
+      "actsRegulations": {
+        "text": "Acts/Regulations",
+        "url": "http://intranet.nea.org.np/acts"
+      },
+      "pressReleases": {
+        "text": "Press Releases",
+        "url": "http://intranet.nea.org.np/pressreleases"
+      }
+    }
+  },
+  "softwares": {
+    "text": "Softwares",
+    "dropdown": {
+      "downloads": {
+        "text": "Downloads",
+        "url": "http://intranet.nea.org.np/downloads"
+      },
+      "backup": {
+        "text": "Backup",
+        "url": "https://nea.org.np/backup"
+      }
+    }
+  },
+  "manuals": {
+    "text": "Manuals",
+    "dropdown": {
+      "eAttendance": {
+        "text": "E-Attendance",
+        "url": "http://intranet.nea.org.np/manualType/category/1"
+      },
+      "ticketManagementSystem": {
+        "text": "Ticket Management System",
+        "url": "http://intranet.nea.org.np/manualType/category/2"
+      },
+      "cais": {
+        "text": "CAIS",
+        "url": "http://intranet.nea.org.np/manualType/category/3"
+      }
+    }
+  },
+  "login": {
+    "text": "Login",
+    "url": "http://intranet.nea.org.np/employee/login"
+  }
+}

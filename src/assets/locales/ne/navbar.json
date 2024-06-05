@@ -1,0 +1,62 @@
+{
+  "brandTitle": "नेपाल विद्युत प्राधिकरण",
+  "home": {
+    "text": "होम",
+    "url": "http://intranet.nea.org.np"
+  },
+  "mediaCenter": {
+    "text": "मिडिया सेन्टर",
+    "dropdown": {
+      "formsInformation": {
+        "text": "फारम / सूचना",
+        "url": "http://localhost:5173/forms"
+      },
+      "publicationsReports": {
+        "text": "प्रकाशन / प्रतिवेदन",
+        "url": "http://intranet.nea.org.np/publications"
+      },
+      "actsRegulations": {
+        "text": "ऐन / नियमहरु",
+        "url": "http://intranet.nea.org.np/acts"
+      },
+      "pressReleases": {
+        "text": "प्रेस विज्ञप्ति",
+        "url": "http://intranet.nea.org.np/pressreleases"
+      }
+    }
+  },
+  "softwares": {
+    "text": "सफ्टवेयर",
+    "dropdown": {
+      "downloads": {
+        "text": "डाउनलोड",
+        "url": "http://intranet.nea.org.np/downloads"
+      },
+      "backup": {
+        "text": "ब्याकअप",
+        "url": "https://nea.org.np/backup"
+      }
+    }
+  },
+  "manuals": {
+    "text": "म्यानुअलहरू",
+    "dropdown": {
+      "eAttendance": {
+        "text": "ई-उपस्थिति",
+        "url": "http://intranet.nea.org.np/manualType/category/1"
+      },
+      "ticketManagementSystem": {
+        "text": "टिकट व्यवस्थापन प्रणाली",
+        "url": "http://intranet.nea.org.np/manualType/category/2"
+      },
+      "cais": {
+        "text": "सिएआईएस",
+        "url": "http://intranet.nea.org.np/manualType/category/3"
+      }
+    }
+  },
+  "login": {
+    "text": "लगइन गर्नुहोस्",
+    "url": "http://intranet.nea.org.np/employee/login"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "usefulLinks": {
+    "title": "उपयोगी लिङ्कहरू",
+    "moewri": "ऊर्जा, जलस्रोत तथा सिंचाइ मन्त्रालय",
+    "primeMinisterCabinet": "प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालय",
+    "ministryOfFinance": "अर्थ मन्त्रालय",
+    "lokSewa": "लोक सेवा आयोग"
+  },
+  "quickLinks": {
+    "title": "द्रुत लिङ्कहरू",
+    "home": {
+      "text": "होम",
+      "url": "http://intranet.nea.org.np"
+    },
+    "formsInformation": {
+      "text": "फारम / सूचना",
+      "url": "http://intranet.nea.org.np/forms"
+    },
+    "actsRegulations": {
+      "text": "ऐन / नियमहरु",
+      "url": "http://intranet.nea.org.np/acts"
+    },
+    "newsAndNotices": {
+      "text": "प्रेस विज्ञप्ति",
+      "url": "http://intranet.nea.org.np/news"
+    }
+  },
+  "contactInformation": {
+    "title": "सम्पर्क जानकारी",
+    "phone": "०१-४१५३०५१",
+    "email": "info@nea.org.np",
+    "location": "प्रधान कार्यालय, दरबारमार्ग काठमाडौं, नेपाल"
+  },
+  "socialMedia": {
+    "title": "फोलो गर्नुहोस"
+  }
+}
