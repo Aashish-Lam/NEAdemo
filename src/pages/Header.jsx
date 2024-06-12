@@ -37,7 +37,10 @@ const Titles = () => {
       <div className="container mx-auto flex items-center justify-between py-2">
         {/* Logo, Date, and Time */}
         <div className="flex items-center space-x-0">
-          <a href={navbarLinks.home.url} className="flex items-center space-x-2">
+          <a
+            href={navbarLinks.home.url}
+            className="flex items-center space-x-2"
+          >
             <img
               className="w-16 h-16 lg:w-20 lg:h-20"
               src={i1}
@@ -45,7 +48,11 @@ const Titles = () => {
             />
           </a>
           <span className="flex items-center space-x-1">
-            <img src={calendar} alt="Calendar Icon" className={iconStyle} />
+            <img
+              src={calendar}
+              alt="Calendar Icon"
+              className={iconStyle}
+            />
             <span>{date}</span>
           </span>
           <span className="flex items-center space-x-1">
@@ -55,7 +62,7 @@ const Titles = () => {
 
         {/* Title */}
         <h1 className="text-xl font-bold mx-auto md:text-lg lg:text-4xl text-slate-50 text-center">
-          {navbarLinks.brandTitle}
+          {t("brandTitle")}
         </h1>
 
         {/* Language Switch, Login, and Theme Toggle */}
@@ -78,7 +85,11 @@ const Titles = () => {
             href="http://intranet.nea.org.np/employee/login"
             className="flex items-center space-x-1 hover:text-gray-400"
           >
-            <img src={login} alt="Login Icon" className={iconStyle} />
+            <img
+              src={login}
+              alt="Login Icon"
+              className={iconStyle}
+            />
             <span>{t("login.text")}</span>
           </a>
           <ThemeToggle />
