@@ -27,7 +27,8 @@ function Tab() {
       <div>
         {data.map((item, index) => (
           <div
-            className="news-item flex justify-between pb-6 border-slate-400 border-b-2 pt-2"
+            className="news-item flex justify-between py-3 border-slate-400 border-b"
+
             key={index}
           >
             <div>
@@ -83,7 +84,8 @@ function Tab() {
         </div>
 
         <div className="w-full dark:text-slate-100 dark:bg-slate-800 p-2 flex flex-col gap-4 ">
-          <hr className="mb-1" />
+          {/* <hr className="mb-1" /> */}
+
 
           {activeTab === t("LATEST_NEWS") && renderContent(latestNews)}
           {activeTab === t("PUBLICATIONS_REPORTS") &&
