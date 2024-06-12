@@ -7,7 +7,11 @@ import {
   BsPersonSquare,
 } from "react-icons/bs";
 
+import Nea from "./Nea";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 const IconTile = () => {
+  const { t } = useTranslation();
   return (
     <div className="hidden md:flex flex-col items-center cursor-pointer ml-16 mt-16 ">
 

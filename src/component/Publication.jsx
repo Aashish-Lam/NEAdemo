@@ -19,13 +19,16 @@ const Publication = () => {
     <>
       <div className=" dark:bg-black  py-8">
         <h1 className="text-slate-700 dark:text-slate-200  mb-6 font-bold text-4xl text-center">
-          {t("title")}
+          {t("publicationTitle")}
         </h1>
 
         <div className="grid sm:grid-cols-5 grid-cols-1 gap-5 px-12 sm:mx-44 mx-10">
           {images.map((image) => {
             return (
-              <div className="" key={image.id}>
+              <div
+                className=""
+                key={image.id}
+              >
                 <img
                   className="sm:h-72 h-80   rounded-lg"
                   src={image.image}

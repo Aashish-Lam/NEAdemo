@@ -7,7 +7,7 @@ import Service from "./component/Service";
 import Publication from "./component/Publication";
 import Footer from "./pages/Footer";
 import ScrollToTopButton from "./pages/Scroll";
-import Tab from './component/Tab'
+import Tab from "./component/Tab";
 import FormsPage from "./pages/FormPage";
 
 const App = () => {
@@ -36,7 +36,10 @@ const App = () => {
         changeLanguage={changeLanguage}
       />
       <Routes>
-        <Route path="/forms" element={<FormsPage />} />
+        <Route
+          path="/forms"
+          element={<FormsPage />}
+        />
       </Routes>
       {!isFormPage && (
         <>
@@ -45,7 +48,7 @@ const App = () => {
         </>
       )}
       <Footer language={language} />
-      <ScrollToTopButton /> 
+      <ScrollToTopButton />
     </>
   );
 };
