@@ -9,7 +9,7 @@ function Tab() {
 
   useEffect(() => {
     const initializeTranslations = async () => {
-      await i18n.isInitialized;
+      i18n.isInitialized;
       setActiveTab(t("LATEST_NEWS"));
       setIsInitialized(true);
     };
@@ -28,6 +28,7 @@ function Tab() {
         {data.map((item, index) => (
           <div
             className="news-item flex justify-between py-3 border-slate-400 border-b"
+
             key={index}
           >
             <div>
@@ -84,6 +85,7 @@ function Tab() {
 
         <div className="w-full dark:text-slate-100 dark:bg-slate-800 p-2 flex flex-col gap-4 ">
           {/* <hr className="mb-1" /> */}
+
 
           {activeTab === t("LATEST_NEWS") && renderContent(latestNews)}
           {activeTab === t("PUBLICATIONS_REPORTS") &&
