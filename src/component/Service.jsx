@@ -7,7 +7,7 @@ import Nea from "./Nea";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 const Elements = () => {
-  const { t, i18next } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center py-20 text-white">
       <h1 className="mb-10 mt-2 text-4xl text-center text-slate-300 font-semibold">

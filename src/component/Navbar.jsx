@@ -27,10 +27,7 @@ const Header = () => {
   return (
     <nav className="  text-gray-100   dark:text-white p-4 pb-16">
       <div className="max-w-screen-xl mx-auto px-4 lg:px-8 ">
-    
         <div className="flex items-center justify-center h-16 mt-8 ">
-      
-
           <div className="md:hidden">
             <button
               onClick={toggleMobileMenu}
@@ -66,7 +63,10 @@ const Header = () => {
             {Object.keys(navbarLinks)
               .filter((key) => navbarLinks[key].dropdown)
               .map((key) => (
-                <div key={key} className="relative">
+                <div
+                  key={key}
+                  className="relative"
+                >
                   {console.log(key)}
                   <button
                     onClick={() => toggleDropdown(key)}
@@ -116,7 +116,10 @@ const Header = () => {
             {Object.keys(navbarLinks)
               .filter((key) => navbarLinks[key].dropdown)
               .map((key) => (
-                <div key={key} className="relative mt-2">
+                <div
+                  key={key}
+                  className="relative mt-2"
+                >
                   <button
                     onClick={() => toggleDropdown(key)}
                     className="flex items-center px-4 py-2  text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-800 focus:outline-none dark:hover:bg-gray-600 dark:focus:bg-gray-600"
