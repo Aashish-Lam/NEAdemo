@@ -44,7 +44,6 @@ const App = () => {
       {!isFormPage && (
         <>
           <Tab />
-          <Service language={language} />
           <Publication language={language} />
         </>
       )}
