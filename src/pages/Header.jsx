@@ -6,6 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 import { useTranslation } from "react-i18next";
 import translations from "../translation";
 import i1 from "../assets/nea-logo-white.png";
+import NavLinks from "../component/NavLinks";
 
 const Titles = () => {
   const [navbarLinks, setNavbarLinks] = useState(translations.en);
@@ -32,9 +33,23 @@ const Titles = () => {
     localStorage.setItem("language", lng);
   };
 
+  const [isOpen, setIsOpen] = useState({});
+
+  const toggleDropdown = (key) => {
+    setIsOpen((prevState) => ({
+      ...prevState,
+      [key]: !prevState[key],
+    }));
+  };
+
+  useEffect(() => {
+    const languageCode = localStorage.getItem("language") || "en";
+    setNavbarLinks(translations[languageCode]);
+  }, [localStorage.getItem("language")]);
+
   return (
     <section className="bg-blue-900 text-white py-2 dark:bg-slate-900 px-4 md:px-2 dark:text-white text-lg">
-      <div className="container mx-auto flex items-center justify-between py-2">
+      <div className="container mx-auto flex items-center justify-between px-0">
         {/* Logo, Date, and Time */}
         <div className="flex items-center space-x-0">
           <a
@@ -47,23 +62,18 @@ const Titles = () => {
               alt="Nepal Electricity Authority Logo"
             />
           </a>
-          <span className="flex items-center space-x-1">
-            <img
-              src={calendar}
-              alt="Calendar Icon"
-              className={iconStyle}
-            />
-            <span>{date}</span>
-          </span>
-          <span className="flex items-center space-x-1">
-            <span>{time}</span>
-          </span>
-        </div>
 
-        {/* Title */}
-        <h1 className="text-xl font-bold mx-auto md:text-lg lg:text-4xl text-slate-50 text-center">
-          {t("brandTitle")}
-        </h1>
+          {/* Title */}
+          <h1 className="text-xl font-medium mx-0 md:text-lg lg:text-3xl text-slate-50 text-center">
+            {t("brandTitle")}
+          </h1>
+
+          <NavLinks
+            navbarLinks={navbarLinks}
+            isOpen={isOpen}
+            toggleDropdown={toggleDropdown}
+          />
+        </div>
 
         {/* Language Switch, Login, and Theme Toggle */}
         <div className="flex items-center space-x-4">

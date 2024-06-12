@@ -22,28 +22,27 @@ function Tab() {
   });
   const pressReleases = t("press_releases", { returnObjects: true });
 
-const renderContent = (data) => {
-  return (
-    <div>
-      {data.map((item, index) => (
-        <div
-          className="news-item flex justify-between pb-6 border-slate-400 border-b-2 pt-2"
-          key={index}
-        >
-          <div>
-            <h3 className="text-wrap md:text-nowrap w-72 md:w-full">{item.title}</h3>
+  const renderContent = (data) => {
+    return (
+      <div>
+        {data.map((item, index) => (
+          <div
+            className="news-item flex justify-between py-3 border-slate-400 border-b"
+            key={index}
+          >
+            <div>
+              <h3 className="text-wrap md:text-nowrap w-72 md:w-full">
+                {item.title}
+              </h3>
+            </div>
+            <div>
+              <p>{item.date}</p>
+            </div>
           </div>
-          <div>
-            <p>{item.date}</p>
-           
-          </div>
-  
-          
-        </div>
-      ))}
-    </div>
-  );
-};
+        ))}
+      </div>
+    );
+  };
 
   if (!isInitialized) {
     return <div>Loading...</div>;
@@ -84,9 +83,9 @@ const renderContent = (data) => {
         </div>
 
         <div className="w-full dark:text-slate-100 dark:bg-slate-800 p-2 flex flex-col gap-4 ">
-          <hr className="mb-1" />
-        
-          {activeTab === t("LATEST_NEWS") && renderContent(latestNews) }
+          {/* <hr className="mb-1" /> */}
+
+          {activeTab === t("LATEST_NEWS") && renderContent(latestNews)}
           {activeTab === t("PUBLICATIONS_REPORTS") &&
             renderContent(publicationsReports)}
           {activeTab === t("PRESS_RELEASES") && renderContent(pressReleases)}
