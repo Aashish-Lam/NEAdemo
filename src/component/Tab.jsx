@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import TrainingCenter from "./TrainingCenter.jsx";
+import Service from './Service.jsx'
+import SelfCareAccount from "./SelfCarAccount.jsx";
 
 function Tab() {
   const { t, i18n } = useTranslation();
@@ -92,7 +94,10 @@ const renderContent = (data) => {
           {activeTab === t("PRESS_RELEASES") && renderContent(pressReleases)}
         </div>
       </div>
-      <TrainingCenter records={latestNews} />
+      {/* <TrainingCenter records={latestNews} /> */}
+      <Service/>
+      {/* <SelfCareAccount/> */}
+      
     </div>
   );
 }
