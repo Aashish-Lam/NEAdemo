@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import TrainingCenter from "./TrainingCenter.jsx";
-import Service from './Service.jsx'
-import SelfCareAccount from "./SelfCarAccount.jsx";
+import Service from "./Service.jsx";
 
 function Tab() {
   const { t, i18n } = useTranslation();
@@ -30,7 +29,6 @@ function Tab() {
         {data.map((item, index) => (
           <div
             className="news-item flex justify-between py-3 border-slate-400 border-b"
-
             key={index}
           >
             <div>
@@ -86,19 +84,13 @@ function Tab() {
         </div>
 
         <div className="w-full dark:text-slate-100 dark:bg-slate-800 p-2 flex flex-col gap-4 ">
-          {/* <hr className="mb-1" /> */}
-
-
           {activeTab === t("LATEST_NEWS") && renderContent(latestNews)}
           {activeTab === t("PUBLICATIONS_REPORTS") &&
             renderContent(publicationsReports)}
           {activeTab === t("PRESS_RELEASES") && renderContent(pressReleases)}
         </div>
       </div>
-      {/* <TrainingCenter records={latestNews} /> */}
-      <Service/>
-      {/* <SelfCareAccount/> */}
-      
+      <Service />
     </div>
   );
 }
