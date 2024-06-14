@@ -20,7 +20,7 @@ const Header = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <nav className="  text-gray-100   dark:text-white p-4 pb-16">
+    <nav className="  text-gray-100 dark:text-white p-4 pb-16">
       <div className="max-w-screen-xl mx-auto px-4 lg:px-8 ">
         <div className="flex items-center justify-center h-16 mt-8 ">
           <div className="md:hidden">
