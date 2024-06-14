@@ -1,14 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const NavLinks = ({ navbarLinks, isOpen, toggleDropdown }) => {
+  const { t } = useTranslation()
   return (
-    <div className="hidden md:flex md:space-x-4 mt-3">
+    <div className="hidden md:flex md:space-x-4 mt-3 pl-28">
       {/* Home Link */}
       <a
         href={navbarLinks.home.url}
         className="px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-500 focus:bg-gray-500 focus:outline-none dark:hover:bg-gray-500 dark:focus:bg-gray-500 justify-center"
       >
-        {navbarLinks.home.text}
+        {t(navbarLinks.home.text)}
       </a>
       {Object.keys(navbarLinks)
         .filter((key) => navbarLinks[key].dropdown)
@@ -42,7 +44,7 @@ const NavLinks = ({ navbarLinks, isOpen, toggleDropdown }) => {
                     href={navbarLinks[key].dropdown[dropdownKey].url}
                     className="block px-2 py-2 text-lg font-semibold hover:bg-gray-900 focus:bg-gray-950 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
                   >
-                    {navbarLinks[key].dropdown[dropdownKey].text}
+                    {t(navbarLinks[key].dropdown[dropdownKey].text)}
                   </a>
                 ))}
               </div>

@@ -53,7 +53,7 @@ const Titles = () => {
         {/* Logo, Date, and Time */}
         <div className="flex items-center space-x-0">
           <a
-            href={navbarLinks.home.url}
+            href={navbarLinks.home.url}  
             className="flex items-center space-x-2"
           >
             <img
@@ -68,11 +68,11 @@ const Titles = () => {
             {t("brandTitle")}
           </h1>
 
-          <NavLinks
-            navbarLinks={navbarLinks}
-            isOpen={isOpen}
-            toggleDropdown={toggleDropdown}
-          />
+            <NavLinks
+              navbarLinks={translations[i18n.language]}
+              isOpen={isOpen}
+              toggleDropdown={toggleDropdown}
+            />
         </div>
 
         {/* Language Switch, Login, and Theme Toggle */}
