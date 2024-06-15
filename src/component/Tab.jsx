@@ -50,7 +50,7 @@ function Tab() {
   }
 
   return (
-    <div className="app-container mt-7 mx-2 md:mx-[110px] flex flex-col md:flex-row">
+    <div className="app-container mt-7 mx-2 md:mx-[110px] flex flex-col xl:flex-row">
       <div className="App dark:bg-slate-800 text-lg">
         <div className="tabs dark:bg-slate-800 mt-10 md:mt-1 ">
           <button
@@ -90,7 +90,9 @@ function Tab() {
           {activeTab === t("PRESS_RELEASES") && renderContent(pressReleases)}
         </div>
       </div>
-      <Service />
+      <div className="xl:ml-4">
+        <Service />
+      </div>
     </div>
   );
 }

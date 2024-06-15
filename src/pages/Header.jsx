@@ -53,11 +53,11 @@ const Titles = () => {
         {/* Logo, Date, and Time */}
         <div className="flex items-center space-x-0">
           <a
-            href={navbarLinks.home.url}  
+            href={navbarLinks.home.url}
             className="flex items-center space-x-2"
           >
             <img
-              className="w-16 h-16 lg:w-20 lg:h-20"
+              className="w-16 h-16 lg:w-20 lg:h-20 hidden md:block" // Show on medium screens and larger
               src={i1}
               alt="Nepal Electricity Authority Logo"
             />
@@ -68,11 +68,11 @@ const Titles = () => {
             {t("brandTitle")}
           </h1>
 
-            <NavLinks
-              navbarLinks={translations[i18n.language]}
-              isOpen={isOpen}
-              toggleDropdown={toggleDropdown}
-            />
+          <NavLinks
+            navbarLinks={translations[i18n.language]}
+            isOpen={isOpen}
+            toggleDropdown={toggleDropdown}
+          />
         </div>
 
         {/* Language Switch, Login, and Theme Toggle */}
@@ -80,13 +80,13 @@ const Titles = () => {
           <div className="flex items-center space-x-2">
             <button
               onClick={() => changeLanguage("en")}
-              className="hover:text-gray-400"
+              className="hover:text-gray-400 text-base md:text-lg"
             >
               {t("English")}
             </button>
             <button
               onClick={() => changeLanguage("ne")}
-              className="hover:text-gray-400 mt-1"
+              className="hover:text-gray-400 mt-1 text-base md:text-lg"
             >
               {t("नेपाली")}
             </button>
