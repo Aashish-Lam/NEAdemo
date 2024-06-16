@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import i1 from "../assets/nea-logo-white.png";
 import translations from "../translation"; // Import the translations object
 
-const Header = ({ isMobile }) => {
+const Header = ({ isMobile, theme }) => {
   const [isOpen, setIsOpen] = useState({});
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [navbarLinks, setNavbarLinks] = useState(translations.en); // Default language is English
@@ -25,25 +25,22 @@ const Header = ({ isMobile }) => {
 
   return (
     <nav
-      className={`text-gray-100 dark:text-white p-4 pb-16 ${
+      className={`text-gray-100 dark:text-white p-4 pb-0 ${
         isMobile ? "block" : "hidden"
       }`}
     >
       <div className="max-w-screen-xl mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-16 mt-8">
-          <img
-            src={i1}
-            alt="Logo"
-            className="w-10 h-10"
-          />{" "}
+        <div className="flex items-start justify-end h-16 ">
           {/* Add your logo */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center  ">
             <button
               onClick={toggleMobileMenu}
-              className="text-slate-50 dark:text-gray-200 focus:outline-none"
+              className={`focus:outline-none ${
+                theme === "light" ? "text-black" : "text-white"
+              }`}
             >
               <svg
-                className="w-8 h-8" // Increased size
+                className="w-8 h-8 dark:text-white" // Increased size
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -65,10 +62,10 @@ const Header = ({ isMobile }) => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 text-white">
+          <div className="md:hidden mt-4 text-black dark:text-white">
             <a
               href={navbarLinks.home.url}
-              className="block px-4 py-2  text-lg font-semibold rounded-lg hover:bg-gray-800 focus:bg-gray-800 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
+              className="block px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-800 focus:bg-gray-800 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
             >
               {navbarLinks.home.text}
             </a>
@@ -81,7 +78,7 @@ const Header = ({ isMobile }) => {
                 >
                   <button
                     onClick={() => toggleDropdown(key)}
-                    className="flex items-center px-4 py-2  text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-800 focus:outline-none dark:hover:bg-gray-600 dark:focus:bg-gray-600"
+                    className="flex items-center px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-800 focus:outline-none dark:hover:bg-gray-600 dark:focus:bg-gray-600"
                   >
                     <span>{navbarLinks[key].text}</span>
                     <svg
@@ -103,7 +100,7 @@ const Header = ({ isMobile }) => {
                           <a
                             key={dropdownKey}
                             href={navbarLinks[key].dropdown[dropdownKey].url}
-                            className="block px-4 py-2  text-lg font-semibold hover:bg-gray-200 focus:bg-gray-200 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
+                            className="block px-4 py-2 text-lg font-semibold hover:bg-gray-200 focus:bg-gray-200 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
                           >
                             {navbarLinks[key].dropdown[dropdownKey].text}
                           </a>
@@ -115,7 +112,7 @@ const Header = ({ isMobile }) => {
               ))}
             <a
               href={navbarLinks.login.url}
-              className="block px-4 py-2  text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-200 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
+              className="block px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-200 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
             >
               {navbarLinks.login.text}
             </a>
@@ -128,6 +125,7 @@ const Header = ({ isMobile }) => {
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     const resizeHandler = () => {
@@ -141,9 +139,25 @@ const Navbar = () => {
     };
   }, []);
 
+  // Simulating a theme change for demonstration purposes
+  useEffect(() => {
+    const themeChangeHandler = () => {
+      setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    };
+
+    window.addEventListener("themeChange", themeChangeHandler);
+
+    return () => {
+      window.removeEventListener("themeChange", themeChangeHandler);
+    };
+  }, []);
+
   return (
     <>
-      <Header isMobile={isMobile} />
+      <Header
+        isMobile={isMobile}
+        theme={theme}
+      />
     </>
   );
 };

@@ -13,7 +13,7 @@ const IconTile = () => {
   return (
     <div className="flex items-center justify-center flex-col md:flex-row">
       {/* Cards for Small Screens */}
-      <div className="grid grid-cols-1 gap-4 md:hidden w-full p-4">
+      <div className="grid grid-cols-1 gap-2 md:hidden w-full p-4">
         <div className="bg-white rounded-lg shadow-md p-6 flex items-center">
           <BsCalendar2Check
             className="text-blue-500"
@@ -272,7 +272,7 @@ const IconTile = () => {
 
 const Service = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center py-8">
       <IconTile />
     </div>
   );
