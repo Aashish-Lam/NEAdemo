@@ -1,4 +1,3 @@
-// src/Header.js
 import React, { useState, useEffect } from "react";
 import calendar from "../assets/images/calendar.svg";
 import login from "../assets/images/login.svg";
@@ -48,45 +47,45 @@ const Titles = () => {
   }, [localStorage.getItem("language")]);
 
   return (
-    <section className="bg-blue-900 text-white py-2 dark:bg-slate-900 px-4 md:px-2 dark:text-white text-lg">
-      <div className="container mx-auto flex items-center justify-between px-0">
+    <section className="bg-blue-900 text-white py-2 dark:bg-slate-900 px-4 md:px-2 dark:text-white text-lg ">
+      <div className="container flex flex-col md:flex-row lg:items-center items-start justify-between ">
         {/* Logo, Date, and Time */}
-        <div className="flex items-center space-x-0">
+        <div className="flex items-center justify-start space-x-1 mb-2 md:mb-0  ">
           <a
-            href={navbarLinks.home.url}  
-            className="flex items-center space-x-2"
+            href={navbarLinks.home.url}
+            className="flex items-center"
           >
             <img
-              className="w-16 h-16 lg:w-20 lg:h-20"
+              className="w-16 h-16 lg:w-20 lg:h-20 block"
               src={i1}
               alt="Nepal Electricity Authority Logo"
             />
           </a>
 
           {/* Title */}
-          <h1 className="text-xl font-medium mx-0 md:text-lg lg:text-3xl text-slate-50 text-center">
+          <h1 className="text-xl font-medium mx-0 md:text-xl lg:text-3xl text-slate-50 text-center">
             {t("brandTitle")}
           </h1>
 
-            <NavLinks
-              navbarLinks={translations[i18n.language]}
-              isOpen={isOpen}
-              toggleDropdown={toggleDropdown}
-            />
+          <NavLinks
+            navbarLinks={translations[i18n.language]}
+            isOpen={isOpen}
+            toggleDropdown={toggleDropdown}
+          />
         </div>
 
         {/* Language Switch, Login, and Theme Toggle */}
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center space-x-2">
+        <div className="flex  items-center justify-end space-x-4 w-full md:w-auto   ">
+          <div className="flex items-center space-x-2 px-2">
             <button
               onClick={() => changeLanguage("en")}
-              className="hover:text-gray-400"
+              className="hover:text-gray-400 text-base md:text-lg "
             >
               {t("English")}
             </button>
             <button
               onClick={() => changeLanguage("ne")}
-              className="hover:text-gray-400 mt-1"
+              className="hover:text-gray-400 mt-1 text-base md:text-lg"
             >
               {t("नेपाली")}
             </button>

@@ -14,32 +14,29 @@ const Publication = () => {
     { id: 4, image: b4 },
     { id: 5, image: b5 },
   ];
-  const { t, i18next } = useTranslation();
-  return (
-    <>
-      <div className=" dark:bg-black  py-8">
-        <h1 className="text-slate-700 dark:text-slate-200  mb-6 font-bold text-4xl text-center">
-          {t("publicationTitle")}
-        </h1>
+  const { t } = useTranslation();
 
-        <div className="grid sm:grid-cols-5 grid-cols-1 gap-5 px-12 sm:mx-44 mx-10">
-          {images.map((image) => {
-            return (
-              <div
-                className=""
-                key={image.id}
-              >
-                <img
-                  className="sm:h-72 h-80   rounded-lg"
-                  src={image.image}
-                  alt=""
-                />
-              </div>
-            );
-          })}
-        </div>
+  return (
+    <div className="dark:bg-slate-900 py-8">
+      <h1 className="text-slate-700 dark:text-slate-200 mb-6 font-bold text-4xl text-center">
+        {t("publicationTitle")}
+      </h1>
+
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 px-6 md:px-12 mx-auto max-w-screen-xl  rounded-3xl">
+        {images.map((image) => (
+          <div
+            key={image.id}
+            className="flex justify-center"
+          >
+            <img
+              className="object-contain w-full h-80 md:h-72 lg:h-80 xl:h-96 "
+              src={image.image}
+              alt=""
+            />
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 
