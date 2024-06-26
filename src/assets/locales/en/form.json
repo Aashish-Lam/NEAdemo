@@ -1,0 +1,36 @@
+{
+  "title": "Forms/Information",
+  "formLinks": [
+    {
+      "title": "Consent Form",
+      "date": "29 Sep",
+      "download": "Download"
+    },
+    {
+      "title": "New customer application form",
+      "date": "21 Sep",
+      "download": "Download"
+    },
+    {
+      "title": "Information About Medical Insurance",
+      "date": "26 Mar",
+      "download": "Download"
+    },
+    {
+      "title": "Matured Life Insurance Refund Demand Application",
+      "date": "07 Dec",
+      "download": "Download"
+    },
+    {
+      "title": "Family Details",
+      "date": "26 Mar",
+      "download": "Download"
+    }
+  ],
+  "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+  "quickLinks": "Quick links",
+  "quickLink1": "Form / information",
+  "quickLink2": "Publications / reports",
+  "quickLink3": "Acts / regulations",
+  "quickLink4": "Press releases"
+}
