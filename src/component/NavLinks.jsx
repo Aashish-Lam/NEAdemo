@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-const NavLinks = ({ navbarLinks, isOpen, toggleDropdown }) => {
-  const { t } = useTranslation()
+const NavLinks = ({ navbarLinks }) => {
+  const { t } = useTranslation();
+  const [openDropdown, setOpenDropdown] = useState(null);
+
+  const toggleDropdown = (key) => {
+    setOpenDropdown((prev) => (prev === key ? null : key));
+  };
+
   return (
     <div className="hidden md:flex md:space-x-4 mt-3 pl-28">
       {/* Home Link */}
@@ -36,7 +42,7 @@ const NavLinks = ({ navbarLinks, isOpen, toggleDropdown }) => {
                 ></path>
               </svg>
             </button>
-            {isOpen[key] && (
+            {openDropdown === key && (
               <div className="absolute z-10 mt-2 bg-slate-700 rounded-md shadow-lg dark:bg-gray-800">
                 {Object.keys(navbarLinks[key].dropdown).map((dropdownKey) => (
                   <a
