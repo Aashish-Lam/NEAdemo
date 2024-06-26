@@ -3,5 +3,14 @@
   "attendance": "ई-उपस्थिति",
   "payroll": "एनईए पेरोल",
   "vehicleManagement": "सवारी साधन व्यवस्थापन",
-  "ticketManagement": "टिकट व्यवस्थापन प्रणाली"
+  "ticketManagement": "टिकट व्यवस्थापन प्रणाली",
+  "vehicle": "सवारी साधन",
+  "NEAApp": "NEA एप",
+  "Complaints": "गुनासोहरू",
+  "manageAttendance": "उपस्थिति व्यवस्थापन",
+  "tickets": "टिकट व्यवस्थापन गर्नुहोस्",
+  "Neapayroll": "पेरोल",
+  "share": "आफ्ना गुनासाहरू साझा गर्नुहोस्",
+  "downloads": "अनुप्रयोग डाउनलोड गर्नुहोस्",
+  "random":"अनियमित"
 }

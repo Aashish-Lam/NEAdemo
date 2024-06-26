@@ -1,11 +1,17 @@
 import React from "react";
+import { BsBookmarkCheck } from "react-icons/bs";
 import {
-  Bs0Circle,
-  BsBookmarkCheck,
-  BsCalendar2Check,
-  BsChatLeftText,
-  BsPersonSquare,
-} from "react-icons/bs";
+  FaAppStore,
+  FaCarAlt,
+  FaComment,
+  FaDove,
+  FaFeatherAlt,
+  FaGlobeAsia,
+  FaHandHoldingMedical,
+  FaIdCard,
+  FaLaptop,
+  FaMoneyBill,
+} from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const IconTile = () => {
@@ -13,55 +19,69 @@ const IconTile = () => {
   return (
     <div className="flex items-center justify-center flex-col md:flex-row">
       {/* Cards for Small Screens */}
-      <div className="grid grid-cols-1 gap-2 md:hidden w-full p-4">
-        <div className="bg-white rounded-lg shadow-md p-6 flex items-center">
-          <BsCalendar2Check
+      <div className="grid grid-cols-1 gap-2 md:hidden w-full p-4 ">
+        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center  dark:bg-slate-700 dark:text-white">
+          <FaIdCard
             className="text-blue-500"
             size={32}
           />
           <div className="ml-4">
-            <h3 className="text-lg font-semibold">Events</h3>
-            <p className="text-gray-600">Manage your events</p>
+            <h3 className="text-lg font-semibold">{t("attendance")}</h3>
+            <p className="text-gray-600  dark:text-white">
+              {t("manageAttendance")}
+            </p>
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6 flex items-center">
+        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center  dark:bg-slate-700 dark:text-white">
           <BsBookmarkCheck
-            className="text-green-500"
+            className="text-blue-500"
             size={32}
           />
           <div className="ml-4">
-            <h3 className="text-lg font-semibold">Bookings</h3>
-            <p className="text-gray-600">Check your bookings</p>
+            <h3 className="text-lg font-semibold">{t("ticketManagement")}</h3>
+            <p className="text-gray-600 dark:text-white">{t("tickets")}</p>
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6 flex items-center">
-          <BsChatLeftText
-            className="text-purple-500"
+        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center  dark:bg-slate-700 dark:text-white">
+          <FaMoneyBill
+            className="text-blue-500"
             size={32}
           />
           <div className="ml-4">
-            <h3 className="text-lg font-semibold">Chat</h3>
-            <p className="text-gray-600">Start a conversation</p>
+            <h3 className="text-lg font-semibold ">{t("payroll")}</h3>
+            <p className="text-gray-600   dark:text-white">{t("Neapayroll")}</p>
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6 flex items-center">
-          <BsPersonSquare
-            className="text-orange-500"
+        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center  dark:bg-slate-700 dark:text-white">
+          <FaAppStore
+            className="text-blue-500"
             size={32}
           />
           <div className="ml-4">
-            <h3 className="text-lg font-semibold">Attendance</h3>
-            <p className="text-gray-600">Track attendance</p>
+            <h3 className="text-lg font-semibold">{t("NEAApp")}</h3>
+            <p className="text-gray-600   dark:text-white">{t("downloads")}</p>
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6 flex items-center">
-          <Bs0Circle
-            className="text-red-500"
+        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center  dark:bg-slate-700 dark:text-white">
+          <FaCarAlt
+            className="text-blue-500"
             size={32}
           />
           <div className="ml-4">
-            <h3 className="text-lg font-semibold">Banking</h3>
-            <p className="text-gray-600">Manage your accounts</p>
+            <h3 className="text-lg font-semibold">{t("vehicle")}</h3>
+            <p className="text-gray-600   dark:text-white">
+              {t("vehicleManagement")}
+            </p>
+          </div>
+        </div>
+        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center  dark:bg-slate-700 dark:text-white">
+          <FaComment
+            className="text-blue-500"
+            size={32}
+          />
+          <div className="ml-4">
+            <h3 className="text-lg font-semibold">{t("Complaints")}</h3>
+            <p className="text-gray-600  dark:text-white">{t("share")}</p>
           </div>
         </div>
       </div>
@@ -79,12 +99,12 @@ const IconTile = () => {
           }}
         >
           <div className="flex flex-col items-center justify-center w-full h-full">
-            <BsCalendar2Check
+            <FaIdCard
               className="text-white rotate-45 ml-7"
               size={24}
             />
             <div className="transform text-center rotate-45 pr-4 text-slate-100 font-semibold mt-2">
-              <p>Events</p>
+              <p>{t("attendance")}</p>
             </div>
           </div>
         </div>
@@ -101,12 +121,12 @@ const IconTile = () => {
             }}
           >
             <div className="flex flex-col items-center justify-center w-full h-full">
-              <BsBookmarkCheck
+              <FaCarAlt
                 className="text-white ml-9 rotate-45"
                 size={32}
               />
               <div className="transform rotate-45 pr-8 text-center text-slate-100 font-semibold mt-4">
-                <p>Bookings</p>
+                <p>{t("vehicle")}</p>
               </div>
             </div>
           </div>
@@ -121,12 +141,12 @@ const IconTile = () => {
             }}
           >
             <div className="flex flex-col items-center justify-center w-full h-full">
-              <BsChatLeftText
+              <FaComment
                 className="text-white rotate-45 ml-9"
                 size={32}
               />
               <div className="transform rotate-45 pr-5 text-center text-slate-100 font-semibold mt-2">
-                <p>Chat</p>
+                <p>{t("Complaints")}</p>
               </div>
             </div>
           </div>
@@ -143,12 +163,12 @@ const IconTile = () => {
           }}
         >
           <div className="flex flex-col items-center justify-center w-full h-full">
-            <BsPersonSquare
+            <FaMoneyBill
               className="text-white rotate-45 ml-12"
               size={32}
             />
             <div className="transform rotate-45 pr-7 text-center pb-3 text-slate-100 font-semibold mt-4">
-              <p>Attendance</p>
+              <p>{t("payroll")}</p>
             </div>
           </div>
         </div>
@@ -166,12 +186,12 @@ const IconTile = () => {
         >
           <div className="flex flex-col items-center justify-center w-full h-full">
             {/* Add your desired icon component */}
-            <Bs0Circle
+            <FaAppStore
               className="text-white rotate-45 ml-9"
               size={32}
             />
             <div className="transform rotate-45 pr-7 text-center text-slate-100 font-semibold mt-4">
-              <p>Banking</p> {/* Change to your random name */}
+              <p>{t("NEAApp")}</p> {/* Change to your random name */}
             </div>
           </div>
         </div>
@@ -189,12 +209,12 @@ const IconTile = () => {
         >
           <div className="flex flex-col items-center justify-center w-full h-full">
             {/* Add your desired icon component */}
-            <Bs0Circle
+            <FaHandHoldingMedical
               className="text-white rotate-45 ml-9"
               size={32}
             />
             <div className="transform rotate-45 pr-7 text-center text-slate-100 font-semibold mt-4">
-              <p>Name 2</p> {/* Change to your random name */}
+              <p>{t("random")}</p> {/* Change to your random name */}
             </div>
           </div>
         </div>
@@ -212,12 +232,12 @@ const IconTile = () => {
         >
           <div className="flex flex-col items-center justify-center w-full h-full">
             {/* Add your desired icon component */}
-            <Bs0Circle
+            <FaFeatherAlt
               className="text-white rotate-45 ml-9"
               size={32}
             />
             <div className="transform rotate-45 text-center pr-7 text-slate-100 font-semibold mt-4">
-              <p>Name</p> {/* Change to your random name */}
+              <p>{t("random")}</p> {/* Change to your random name */}
             </div>
           </div>
         </div>
@@ -234,12 +254,12 @@ const IconTile = () => {
         >
           <div className="flex flex-col items-center justify-center w-full h-full">
             {/* Add your desired icon component */}
-            <Bs0Circle
+            <FaDove
               className="text-white rotate-45 ml-12"
               size={32}
             />
             <div className="transform rotate-45 pr-7 text-center text-slate-100 font-semibold mt-4">
-              <p>Random Name</p> {/* Change to your random name */}
+              <p>{t("random")}</p> {/* Change to your random name */}
             </div>
           </div>
         </div>
@@ -256,12 +276,12 @@ const IconTile = () => {
         >
           <div className="flex flex-col items-center justify-center w-full h-full">
             {/* Add your desired icon component */}
-            <Bs0Circle
+            <FaLaptop
               className="text-white rotate-45 ml-12"
               size={32}
             />
             <div className="transform rotate-45 pr-7 text-center text-slate-100 font-semibold mt-4">
-              <p>Random Name</p> {/* Change to your random name */}
+              <p>{t("random")}</p> {/* Change to your random name */}
             </div>
           </div>
         </div>

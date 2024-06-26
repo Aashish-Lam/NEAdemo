@@ -1,7 +1,15 @@
 {
-  "titleService": "Our Services at NEA",
+  "titleService": "Our Services",
   "attendance": "E-Attendance",
   "payroll": "NEA Payroll",
-  "vehicleManagement": "Vehicla Management",
-  "ticketManagement": "Ticket Management System"
+  "vehicleManagement": "Vehicle Management",
+  "ticketManagement": "Ticket Management System",
+  "vehicle": "Vehicle",
+  "NEAApp": "NEA App",
+  "Complaints": "Complaints",
+  "manageAttendance": "Manage Attendance",
+  "tickets": "Manage Tickets",
+  "Neapayroll": "Payroll",
+  "share": "Share Your Complaints",
+  "downloads": "Download Our Application"
 }
