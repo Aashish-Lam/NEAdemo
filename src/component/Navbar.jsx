@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import i1 from "../assets/nea-logo-white.png";
 import translations from "../translation"; // Import the translations object
+import { useTranslation } from "react-i18next";
 
 const Header = ({ isMobile, theme }) => {
+  // i18 translator object
+  const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState({});
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [navbarLinks, setNavbarLinks] = useState(translations.en); // Default language is English
+  const [navbarLinks, setNavbarLinks] = useState(translations[i18n.language]); // Default language is English
 
   const toggleDropdown = (key) => {
     setIsOpen((prevState) => ({
@@ -20,8 +23,8 @@ const Header = ({ isMobile, theme }) => {
 
   // useEffect to update navbarLinks when language changes
   useEffect(() => {
-    setNavbarLinks(translations.en); // Change this based on your language logic
-  }, []);
+    setNavbarLinks(translations[i18n.language]); // Change this based on your language logic
+  }, [i18n.language]);
 
   return (
     <nav
@@ -64,23 +67,20 @@ const Header = ({ isMobile, theme }) => {
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 text-black dark:text-white">
             <a
-              href={navbarLinks.home.url}
+              href={t(navbarLinks.home.url)}
               className="block px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-800 focus:bg-gray-800 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
             >
-              {navbarLinks.home.text}
+              {t(navbarLinks.home.text)}
             </a>
             {Object.keys(navbarLinks)
               .filter((key) => navbarLinks[key].dropdown)
               .map((key) => (
-                <div
-                  key={key}
-                  className="relative mt-2"
-                >
+                <div key={key} className="relative mt-2">
                   <button
                     onClick={() => toggleDropdown(key)}
-                    className="flex items-center px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-800 focus:outline-none dark:hover:bg-gray-600 dark:focus:bg-gray-600"
+                    className="flex items-center px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-200 focus:outline-none dark:hover:bg-gray-600 dark:focus:bg-gray-600"
                   >
-                    <span>{navbarLinks[key].text}</span>
+                    <span>{t(navbarLinks[key].text)}</span>
                     <svg
                       className="w-4 h-4 ml-1"
                       fill="currentColor"
@@ -94,15 +94,15 @@ const Header = ({ isMobile, theme }) => {
                     </svg>
                   </button>
                   {isOpen[key] && (
-                    <div className="mt-2 bg-black rounded-md shadow-lg dark:bg-gray-800">
+                    <div className="mt-2 bg-white rounded-md shadow-lg dark:bg-gray-800">
                       {Object.keys(navbarLinks[key].dropdown).map(
                         (dropdownKey) => (
                           <a
                             key={dropdownKey}
-                            href={navbarLinks[key].dropdown[dropdownKey].url}
+                            href={t(navbarLinks[key].dropdown[dropdownKey].url)}
                             className="block px-4 py-2 text-lg font-semibold hover:bg-gray-200 focus:bg-gray-200 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
                           >
-                            {navbarLinks[key].dropdown[dropdownKey].text}
+                            {t(navbarLinks[key].dropdown[dropdownKey].text)}
                           </a>
                         )
                       )}
@@ -111,10 +111,10 @@ const Header = ({ isMobile, theme }) => {
                 </div>
               ))}
             <a
-              href={navbarLinks.login.url}
+              href={t(navbarLinks.login.url)}
               className="block px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-200 focus:bg-gray-200 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
             >
-              {navbarLinks.login.text}
+              {t(navbarLinks.login.text)}
             </a>
           </div>
         )}
@@ -154,10 +154,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Header
-        isMobile={isMobile}
-        theme={theme}
-      />
+      <Header isMobile={isMobile} theme={theme} />
     </>
   );
 };
