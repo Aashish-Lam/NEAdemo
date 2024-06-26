@@ -28,7 +28,7 @@
     }
   ],
   "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
-  "quickLinks": "Quick links",
+  "formQuickLinks": "Quick links",
   "quickLink1": "Form / information",
   "quickLink2": "Publications / reports",
   "quickLink3": "Acts / regulations",

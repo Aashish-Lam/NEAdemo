@@ -66,7 +66,7 @@ const FormsInformation = () => {
         </div>
         <div className="w-full md:w-1/3 md:ml-4">
           <h2 className="text-2xl font-bold text-blue-800 mb-4">
-            {t("quickLinks")}
+            {t("formQuickLinks")}
           </h2>
           <ul>
             {quickLinks.map((link, index) => (

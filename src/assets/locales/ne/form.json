@@ -28,7 +28,7 @@
     }
   ],
   "showingResults": "{{start}} देखि {{end}} सम्म {{total}} परिणामहरू देखाउँदै",
-  "quickLinks": "द्रुत लिंकहरू",
+  "formQuickLinks": "द्रुत लिंकहरू",
   "quickLink1": "फारम / जानकारी",
   "quickLink2": "प्रकाशनहरू / रिपोर्टहरू",
   "quickLink3": "ऐन / नियमहरू",
