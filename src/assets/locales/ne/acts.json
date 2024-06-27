@@ -1,0 +1,45 @@
+{
+  "titleActs": "कानून / नियम",
+  "formLinksActs": [
+    {
+      "title": "जलविद्युत विकास नीति, २००१",
+      "date": "०८ नोभेम्बर",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/hydropower_development_policy_2001.pdf"
+    },
+    {
+      "title": "विदेशी रोजगार र प्रविधि हस्तान्तरण ऐन, १९९२",
+      "date": "१६ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Foreign%20Employment%20and%20Technology%20Transfer%20Act,%201992.pdf"
+    },
+    {
+      "title": "औद्योगिक उद्यम ऐन, १२ नोभेम्बर १९९२ (२०४७-०७-२७ बी.एस)",
+      "date": "२८ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Industrial%20Enterprise%20Act.pdf"
+    },
+    {
+      "title": "विधुत ऐन २०४९ राजदण्ड: १७ डिसेम्बर १९९२ (२०४९-०९-०२)",
+      "date": "२८ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Electricity%20Act.pdf"
+    },
+    {
+      "title": "जलस्रोत ऐन, २०४९ राजदण्ड १७ डिसेम्बर १९९२ (२०४९-०९-०२)",
+      "date": "२८ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Water%20Resource%20Act.pdf"
+    }
+  ],
+  "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
+  "formQuickLinksActs": "छिटो लिङ्कहरू",
+  "quickLinkActs1": "फारम / जानकारी",
+  "quickLinkActs2": "प्रकाशन / प्रतिवेदन",
+  "quickLinkActs3": "कानून / नियम",
+  "quickLinkActs4": "प्रेस विज्ञप्ति",
+  "formLinkActs1": "http://localhost:5173/forms",
+  "formLinkActs2": "http://localhost:5173/reports",
+  "formLinkActs3": "http://localhost:5173/acts",
+  "formLinkActs4": "http://localhost:5173/release"
+}

@@ -1,0 +1,15 @@
+{
+  "titleCais": "सीएआईएस",
+  "formLinksCais": [
+    {
+      "title": "सीएआईएस का लागि ब्राउजर अद्यावधिक समस्या",
+      "date": "२५ डिसेम्बर",
+      "download": "डाउनलोड",
+      "links": "http://intranet.nea.org.np/media/3"
+    }
+  ],
+  "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
+  "formQuickLinksCais": "छिटो लिङ्कहरू",
+  "quickLinkCais": "सीएआईएस",
+  "formLinkCais": "http://localhost:5173/cais"
+}

@@ -1,0 +1,46 @@
+{
+    "titleRelease": "Press Releases",
+    "formLinksRelease": [
+      {
+        "title": "Press release",
+        "date": "08 May",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/19908195.pdf"
+      },
+      {
+        "title": "Press release",
+        "date": "11 May",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/55289009.pdf"
+      },
+      {
+        "title": "The project is related to temporary posts. ",
+        "date": "23 Jun",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/52120904.pdf"
+      },
+      {
+        "title": "Press release ",
+        "date": "21 Dec",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/12179262.pdf"
+      },
+      {
+        "title": "Press release",
+        "date": "26 Jun",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/IMG_20170126_0001.pdf"
+      }
+    ],
+    "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+    "formQuickLinksRelease": "Quick links",
+    "quickLinkRelease1": "Form / information",
+    "quickLinkRelease2": "Publications / reports",
+    "quickLinkRelease3": "Acts / regulations",
+    "quickLinkRelease4": "Press releases",
+    "formLinkRelease1": "http://localhost:5173/forms",
+    "formLinkRelease2": "http://localhost:5173/reports",
+    "formLinkRelease3": "http://localhost:5173/acts",
+    "formLinkRelease4": "http://localhost:5173/release"
+  }
+  

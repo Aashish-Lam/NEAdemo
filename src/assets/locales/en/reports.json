@@ -1,0 +1,46 @@
+{
+    "titleReports": "Publications/Reports",
+    "formLinksReports": [
+      {
+        "title": "New Butwal-Lamahi 400kV TL Project EIA Draft Report Volume 1",
+        "date": "31 May",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/15500210.pdf"
+      },
+      {
+        "title": "New Butwal-Lamahi 400kV TL Project EIA Draft Report Volume 2 ",
+        "date": "31 May",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/87571106.pdf"
+      },
+      {
+        "title": "Regarding Corrected ",
+        "date": "08 May",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/36558919.pdf"
+      },
+      {
+        "title": "Amarjyoti-61st issue, February-2080",
+        "date": "05 May",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/17658864.pdf"
+      },
+      {
+        "title": "Work field condition(TOR) - Computerized Billing and Network Division  ",
+        "date": "25 Feb",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/29826529.pdf"
+      }
+    ],
+    "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+    "formQuickLinksReport": "Quick links",
+    "quickLinkReport1": "Form / information",
+    "quickLinkReport2": "Publications / reports",
+    "quickLinkReport3": "Acts / regulations",
+    "quickLinkReport4": "Press releases",
+    "formLinkReport1": "http://localhost:5173/forms",
+    "formLinkReport2": "http://localhost:5173/reports",
+    "formLinkReport3": "http://localhost:5173/acts",
+    "formLinkReport4": "http://localhost:5173/release"
+  }
+  

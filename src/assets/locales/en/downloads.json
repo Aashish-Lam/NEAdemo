@@ -1,0 +1,41 @@
+{
+  "titleDownloads": "Downloads",
+  "formLinksDownloads": [
+    {
+      "title": "Electricity Act 1992",
+      "date": "29 Aug",
+      "download": "Download",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/7716Electricity%20Act.pdf"
+    },
+    {
+      "title": "Water Resource Act, 2049",
+      "date": "28 Aug",
+      "download": "Download",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/3826Water%20Resource%20Act.pdf"
+    },
+    {
+      "title": "Industrial Enterprise Act ",
+      "date": "28 Aug",
+      "download": "Download",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/2180Industrial%20Enterprise%20Act.pdf"
+    },
+    {
+      "title": "Hydropower Dev Policy, 1992  ",
+      "date": "28 Aug",
+      "download": "Download",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/4561Hydropower%20Development%20Policy.pdf"
+    },
+    {
+      "title": "Upper Trisuli-3A HEP ",
+      "date": "02 Jun",
+      "download": "Download",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Upper-Trisuli-3A.pdf"
+    }
+  ],
+  "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+  "formQuickLinksDownload": "Quick links",
+  "quickLinkDownload1": "Downloads",
+  "quickLinkDownload2": "Backup",
+  "formLinkDownload1": "http://localhost:5173/downloads",
+  "formLinkDownload2": "https://nea.org.np/backup"
+}

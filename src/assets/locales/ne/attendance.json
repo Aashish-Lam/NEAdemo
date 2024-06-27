@@ -1,0 +1,15 @@
+{
+  "titleAttendance": "ई-उपस्थिति",
+  "formLinksAttendance": [
+    {
+      "title": "ई-उपस्थिति म्यानुअल",
+      "date": "२५ डिसेम्बर",
+      "download": "डाउनलोड",
+      "links": "http://intranet.nea.org.np/media/1"
+    }
+  ],
+  "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
+  "formQuickLinksAttendance": "छिटो लिङ्कहरू",
+  "quickLinkAttendance": "ई-उपस्थिति",
+  "formLinkAttendance": "http://localhost:5173/attendance"
+}

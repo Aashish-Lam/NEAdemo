@@ -1,0 +1,46 @@
+{
+    "titleActs": "Acts/Regulations",
+    "formLinksActs": [
+      {
+        "title": "Hydro-Power Development Policy, 2001",
+        "date": "08 Nov",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/hydropower_development_policy_2001.pdf"
+      },
+      {
+        "title": "Foreign Employment and Technology Transfer Act, 1992",
+        "date": "16 Aug",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/Foreign%20Employment%20and%20Technology%20Transfer%20Act,%201992.pdf"
+      },
+      {
+        "title": "Industrial Enterprise Act, published on 12 Nov, 1992 (2047-07-27 B.S) ",
+        "date": "28 Aug",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/Industrial%20Enterprise%20Act.pdf"
+      },
+      {
+        "title": "Electricity Act 2049 Royal Seal: 17 Dec, 1992 (2049-09-02) ",
+        "date": "28 Aug",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/Electricity%20Act.pdf"
+      },
+      {
+        "title": "Water Resource Act, 2049 Royal Seal 17 DECEMBER, 1992 (2049-09-02) ",
+        "date": "28 Aug",
+        "download": "Download",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/Water%20Resource%20Act.pdf"
+      }
+    ],
+    "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+    "formQuickLinksActs": "Quick links",
+    "quickLinkActs1": "Form / information",
+    "quickLinkActs2": "Publications / reports",
+    "quickLinkActs3": "Acts / regulations",
+    "quickLinkActs4": "Press releases",
+    "formLinkActs1": "http://localhost:5173/forms",
+    "formLinkActs2": "http://localhost:5173/reports",
+      "formLinkActs3": "http://localhost:5173/acts",
+    "formLinkActs4": "http://localhost:5173/release"
+  }
+  

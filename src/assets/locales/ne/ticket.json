@@ -1,0 +1,15 @@
+{
+  "titleTicket": "टिकट प्रबन्धन प्रणाली",
+  "formLinksTicket": [
+    {
+      "title": "टिएमएस म्यानुअल",
+      "date": "२५ डिसेम्बर",
+      "download": "डाउनलोड",
+      "links": "http://intranet.nea.org.np/media/2"
+    }
+  ],
+  "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
+  "formQuickLinksTicket": "छिटो लिङ्कहरू",
+  "quickLinkTicket": "टिकट प्रबन्धन प्रणाली",
+  "formLinkTicket": "http://localhost:5173/ticket"
+}

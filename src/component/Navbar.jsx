@@ -68,7 +68,7 @@ const Header = ({ isMobile, theme }) => {
           <div className="md:hidden mt-4 text-black dark:text-white">
             <a
               href={t(navbarLinks.home.url)}
-              className="block px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-800 focus:bg-gray-800 dark:hover:bg-gray-600 dark:focus:bg-gray-600"
+              className="block px-4 py-2 text-lg font-semibold rounded-lg hover:bg-gray-800 focus:bg-slate-300 dark:hover:bg-gray-600 dark:focus:bg-slate-400" 
             >
               {t(navbarLinks.home.text)}
             </a>

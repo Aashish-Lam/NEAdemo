@@ -1,0 +1,46 @@
+{
+    "titleReports": "कानून / नियमावली",
+    "formLinksReports": [
+      {
+        "title": "नयाँ बुटवल-लमाही ४००कেভी टीएल परियोजना ईआईए मस्यौदा रिपोर्ट भाग १",
+        "date": "३१ मे",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/15500210.pdf"
+      },
+      {
+        "title": "नयाँ बुटवल-लमाही ४००कেভी टीएल परियोजना ईआईए मस्यौदा रिपोर्ट भाग २",
+        "date": "३१ मे",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/87571106.pdf"
+      },
+      {
+        "title": "सम्बन्धित संशोधन",
+        "date": "०८ मे",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/36558919.pdf"
+      },
+      {
+        "title": "अमरज्योति-६१ औं अंक, फेब्रुअरी-२०८०",
+        "date": "०५ मे",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/17658864.pdf"
+      },
+      {
+        "title": "कार्य क्षेत्र अवस्था (टीओआर) - कम्प्युटराइज्ड बिलिङ र नेटवर्क डिभिजन",
+        "date": "२५ फेब्रुअरी",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/29826529.pdf"
+      }
+    ],
+    "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
+    "formQuickLinksReport": "छिटो लिङ्कहरू",
+    "quickLinkReport1": "फारम / जानकारी",
+    "quickLinkReport2": "प्रकाशन / प्रतिवेदन",
+    "quickLinkReport3": "कानून / नियमावली",
+    "quickLinkReport4": "प्रेस विज्ञप्ति",
+    "formLinkReport1": "http://localhost:5173/forms",
+    "formLinkReport2": "http://localhost:5173/reports",
+    "formLinkReport3": "http://localhost:5173/acts",
+    "formLinkReport4": "http://localhost:5173/release"
+  }
+  

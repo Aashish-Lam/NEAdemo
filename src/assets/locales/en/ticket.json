@@ -1,0 +1,18 @@
+{
+    "titleTicket": "Ticket Management System",
+    "formLinksTicket": [
+      {
+        "title": "TMS Manual  ",
+        "date": "25 dec",
+        "download": "Download",
+        "links":"http://intranet.nea.org.np/media/2"
+      }
+    ],
+    "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+    "formQuickLinksTicket": "Quick links",
+    "quickLinkTicket": "Ticket Management System",
+    "formLinkTicket":"http://localhost:5173/ticket"
+
+
+  }
+  

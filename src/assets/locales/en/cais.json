@@ -1,0 +1,15 @@
+{
+  "titleCais": "CAIS",
+  "formLinksCais": [
+    {
+      "title": "Browser Update Problem For CAIS ",
+      "date": "25 dec",
+      "download": "Download",
+      "links": "http://intranet.nea.org.np/media/3"
+    }
+  ],
+  "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+  "formQuickLinksCais": "Quick links",
+  "quickLinkCais": "Cais",
+  "formLinkCais": "http://localhost:5173/cais"
+}

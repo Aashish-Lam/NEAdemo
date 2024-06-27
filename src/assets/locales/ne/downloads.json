@@ -1,0 +1,41 @@
+{
+  "titleDownloads": "डाउनलोडहरू",
+  "formLinksDownloads": [
+    {
+      "title": "विधुत ऐन १९९२",
+      "date": "२९ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/7716Electricity%20Act.pdf"
+    },
+    {
+      "title": "जलस्रोत ऐन, २०४९",
+      "date": "२८ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/3826Water%20Resource%20Act.pdf"
+    },
+    {
+      "title": "औद्योगिक उद्यम ऐन",
+      "date": "२८ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/2180Industrial%20Enterprise%20Act.pdf"
+    },
+    {
+      "title": "जलविद्युत विकास नीति, १९९२",
+      "date": "२८ अगस्ट",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/4561Hydropower%20Development%20Policy.pdf"
+    },
+    {
+      "title": "उपरी त्रिशुली-३ए एचईपी",
+      "date": "०२ जुन",
+      "download": "डाउनलोड",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Upper-Trisuli-3A.pdf"
+    }
+  ],
+  "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
+  "formQuickLinksDownload": "छिटो लिङ्कहरू",
+  "quickLinkDownload1": "Downloads",
+  "quickLinkDownload2": "Backup",
+  "formLinkDownload1": "http://localhost:5173/downloads",
+  "formLinkDownload2": "https://nea.org.np/backup"
+}
