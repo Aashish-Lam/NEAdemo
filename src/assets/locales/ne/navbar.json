@@ -2,26 +2,26 @@
   "brandTitle": "नेपाल विद्युत प्राधिकरण",
   "home": {
     "text": "होम",
-    "url": "http://intranet.nea.org.np"
+    "url": "/"
   },
   "mediaCenter": {
     "text": "मिडिया सेन्टर",
     "dropdown": {
       "formsInformation": {
         "text": "फारम / सूचना",
-        "url": "http://localhost:5173/forms"
+        "url": "/forms"
       },
       "publicationsReports": {
         "text": "प्रकाशन / प्रतिवेदन",
-        "url": "http://localhost:5173/reports"
+        "url": "/reports"
       },
       "actsRegulations": {
         "text": "ऐन / नियमहरु",
-        "url": "http://localhost:5173/acts"
+        "url": "/acts"
       },
       "pressReleases": {
         "text": "प्रेस विज्ञप्ति",
-        "url": "http://localhost:5173/release"
+        "url": "/release"
       }
     }
   },
@@ -30,7 +30,7 @@
     "dropdown": {
       "downloads": {
         "text": "डाउनलोड",
-        "url": "http://localhost:5173/downloads"
+        "url": "/downloads"
       },
       "backup": {
         "text": "ब्याकअप",
@@ -43,15 +43,15 @@
     "dropdown": {
       "eAttendance": {
         "text": "ई-उपस्थिति",
-        "url": "http://localhost:5173/attendance"
+        "url": "/attendance"
       },
       "ticketManagementSystem": {
         "text": "टिकट व्यवस्थापन प्रणाली",
-        "url": "http://localhost:5173/ticket"
+        "url": "/ticket"
       },
       "cais": {
         "text": "सिएआईएस",
-        "url": "http://localhost:5173/cais"
+        "url": "/cais"
       }
     }
   },

@@ -34,8 +34,8 @@
   ],
   "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
   "formQuickLinksDownload": "छिटो लिङ्कहरू",
-  "quickLinkDownload1": "Downloads",
-  "quickLinkDownload2": "Backup",
+  "quickLinkDownload1": "डाउनलोड",
+  "quickLinkDownload2": "ब्याकअप",
   "formLinkDownload1": "http://localhost:5173/downloads",
   "formLinkDownload2": "https://nea.org.np/backup"
 }

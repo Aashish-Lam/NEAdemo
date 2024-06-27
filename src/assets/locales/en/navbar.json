@@ -2,26 +2,26 @@
   "brandTitle": "Nepal Electricity Authority",
   "home": {
     "text": "Home",
-    "url": "http://localhost:5173"
+    "url": "/"
   },
   "mediaCenter": {
     "text": "Media Center",
     "dropdown": {
       "formsInformation": {
         "text": "Forms/Information",
-        "url": "http://localhost:5173/forms"
+        "url": "/forms"
       },
       "publicationsReports": {
         "text": "Publications/Reports",
-        "url": "http://localhost:5173/reports"
+        "url": "/reports"
       },
       "actsRegulations": {
         "text": "Acts/Regulations",
-        "url": "http://localhost:5173/acts"
+        "url": "/acts"
       },
       "pressReleases": {
         "text": "Press Releases",
-        "url": "http://localhost:5173/release"
+        "url": "/release"
       }
     }
   },
@@ -30,7 +30,7 @@
     "dropdown": {
       "downloads": {
         "text": "Downloads",
-        "url": "http://localhost:5173/downloads"
+        "url": "/downloads"
       },
       "backup": {
         "text": "Backup",
@@ -43,15 +43,15 @@
     "dropdown": {
       "eAttendance": {
         "text": "E-Attendance",
-        "url": "http://localhost:5173/attendance"
+        "url": "/attendance"
       },
       "ticketManagementSystem": {
         "text": "Ticket Management System",
-        "url": "http://localhost:5173/ticket"
+        "url": "/ticket"
       },
       "cais": {
         "text": "CAIS",
-        "url": "http://localhost:5173/cais"
+        "url": "/cais"
       }
     }
   },
