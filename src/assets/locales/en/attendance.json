@@ -1,0 +1,15 @@
+{
+  "titleAttendance": "E-Attendance",
+  "formLinksAttendance": [
+    {
+      "title": "E-Attendance Manual ",
+      "date": "25 dec",
+      "download": "Download",
+      "links": "http://intranet.nea.org.np/media/1"
+    }
+  ],
+  "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
+  "formQuickLinksAttendance": "Quick links",
+  "quickLinkAttendance": "E-Attendance",
+  "formLinkAttendance": "http://localhost:5173/attendance"
+}

@@ -4,27 +4,32 @@
     {
       "title": "सहमती फारम",
       "date": "२९ सेप्टेम्बर",
-      "download": "डाउनलोड गर्नुहोस्"
+      "download": "डाउनलोड गर्नुहोस्",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Sahamati%20Form.pdf"
     },
     {
       "title": "नयाँ ग्राहक आवेदन फारम",
       "date": "२१ सेप्टेम्बर",
-      "download": "डाउनलोड गर्नुहोस्"
+      "download": "डाउनलोड गर्नुहोस्",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/New%20Application%20form%20Final.pdf"
     },
     {
       "title": "चिकित्सा बीमाको बारेमा जानकारी",
       "date": "२६ मार्च",
-      "download": "डाउनलोड गर्नुहोस्"
+      "download": "डाउनलोड गर्नुहोस्",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Information-about-medical-insurance.pdf"
     },
     {
       "title": "परिपक्व जीवन बीमा फिर्ती माग आवेदन",
       "date": "०७ डिसेम्बर",
-      "download": "डाउनलोड गर्नुहोस्"
+      "download": "डाउनलोड गर्नुहोस्",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/68619474.pdf"
     },
     {
       "title": "परिवार विवरण",
       "date": "२६ मार्च",
-      "download": "डाउनलोड गर्नुहोस्"
+      "download": "डाउनलोड गर्नुहोस्",
+      "links": "https://nea.org.np/admin/assets/uploads/supportive_docs/Pariwarik-bibaran.pdf"
     }
   ],
   "showingResults": "{{start}} देखि {{end}} सम्म {{total}} परिणामहरू देखाउँदै",
@@ -32,5 +37,9 @@
   "quickLink1": "फारम / जानकारी",
   "quickLink2": "प्रकाशनहरू / रिपोर्टहरू",
   "quickLink3": "ऐन / नियमहरू",
-  "quickLink4": "प्रेस विज्ञप्तिहरू"
+  "quickLink4": "प्रेस विज्ञप्तिहरू",
+  "formLink1": "http://localhost:5173/forms",
+  "formLink2": "http://localhost:5173/reports",
+  "formLink3": "http://localhost:5173/acts",
+  "formLink4": "http://localhost:5173/release"
 }

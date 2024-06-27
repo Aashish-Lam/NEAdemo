@@ -1,0 +1,46 @@
+{
+    "titleRelease": "प्रकाशन / रिपोर्टहरू",
+    "formLinksRelease": [
+      {
+        "title": "प्रेस विज्ञप्ति",
+        "date": "०८ मे",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/19908195.pdf"
+      },
+      {
+        "title": "प्रेस विज्ञप्ति",
+        "date": "११ मे",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/55289009.pdf"
+      },
+      {
+        "title": "परियोजना अस्थायी पदहरूको सम्बन्धमा हो।",
+        "date": "२३ जुन",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/52120904.pdf"
+      },
+      {
+        "title": "प्रेस विज्ञप्ति",
+        "date": "२१ डिसेम्बर",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/12179262.pdf"
+      },
+      {
+        "title": "प्रेस विज्ञप्ति",
+        "date": "२६ जुन",
+        "download": "डाउनलोड",
+              "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/IMG_20170126_0001.pdf"
+      }
+    ],
+    "showingResults": "{{start}} देखि {{end}} सम्मको {{total}} परिणाम देखाउँदै",
+    "formQuickLinksRelease": "छिटो लिङ्कहरू",
+    "quickLinkRelease1": "फारम / जानकारी",
+    "quickLinkRelease2": "प्रकाशन / प्रतिवेदन",
+    "quickLinkRelease3": "कानून / नियमावली",
+    "quickLinkRelease4": "प्रेस विज्ञप्ति",
+    "formLinkRelease1": "http://localhost:5173/forms",
+    "formLinkRelease2": "http://localhost:5173/reports",
+    "formLinkRelease3": "http://localhost:5173/acts",
+    "formLinkRelease4": "http://localhost:5173/release"
+  }
+  

@@ -4,27 +4,32 @@
     {
       "title": "Consent Form",
       "date": "29 Sep",
-      "download": "Download"
+      "download": "Download",
+       "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/Sahamati%20Form.pdf"
     },
     {
       "title": "New customer application form",
       "date": "21 Sep",
-      "download": "Download"
+      "download": "Download",
+       "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/New%20Application%20form%20Final.pdf"
     },
     {
       "title": "Information About Medical Insurance",
       "date": "26 Mar",
-      "download": "Download"
+      "download": "Download",
+       "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/Information-about-medical-insurance.pdf"
     },
     {
       "title": "Matured Life Insurance Refund Demand Application",
       "date": "07 Dec",
-      "download": "Download"
+      "download": "Download",
+       "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/68619474.pdf"
     },
     {
       "title": "Family Details",
       "date": "26 Mar",
-      "download": "Download"
+      "download": "Download",
+       "links":"https://nea.org.np/admin/assets/uploads/supportive_docs/Pariwarik-bibaran.pdf"
     }
   ],
   "showingResults": "Showing {{start}} to {{end}} of {{total}} results ",
@@ -32,5 +37,10 @@
   "quickLink1": "Form / information",
   "quickLink2": "Publications / reports",
   "quickLink3": "Acts / regulations",
-  "quickLink4": "Press releases"
+  "quickLink4": "Press releases",
+  "formLink1": "http://localhost:5173/forms",
+  "formLink2": "http://localhost:5173/reports",
+    "formLink3": "http://localhost:5173/acts",
+  "formLink4": "http://localhost:5173/release"
+  
 }

@@ -13,15 +13,15 @@
       },
       "publicationsReports": {
         "text": "प्रकाशन / प्रतिवेदन",
-        "url": "http://intranet.nea.org.np/publications"
+        "url": "http://localhost:5173/reports"
       },
       "actsRegulations": {
         "text": "ऐन / नियमहरु",
-        "url": "http://intranet.nea.org.np/acts"
+        "url": "http://localhost:5173/acts"
       },
       "pressReleases": {
         "text": "प्रेस विज्ञप्ति",
-        "url": "http://intranet.nea.org.np/pressreleases"
+        "url": "http://localhost:5173/release"
       }
     }
   },
@@ -30,7 +30,7 @@
     "dropdown": {
       "downloads": {
         "text": "डाउनलोड",
-        "url": "http://intranet.nea.org.np/downloads"
+        "url": "http://localhost:5173/downloads"
       },
       "backup": {
         "text": "ब्याकअप",
@@ -43,15 +43,15 @@
     "dropdown": {
       "eAttendance": {
         "text": "ई-उपस्थिति",
-        "url": "http://intranet.nea.org.np/manualType/category/1"
+        "url": "http://localhost:5173/attendance"
       },
       "ticketManagementSystem": {
         "text": "टिकट व्यवस्थापन प्रणाली",
-        "url": "http://intranet.nea.org.np/manualType/category/2"
+        "url": "http://localhost:5173/ticket"
       },
       "cais": {
         "text": "सिएआईएस",
-        "url": "http://intranet.nea.org.np/manualType/category/3"
+        "url": "http://localhost:5173/cais"
       }
     }
   },
